@@ -52,14 +52,6 @@ function login() {
             Login with github
             <FontAwesomeIcon icon={faGithub} fontSize={29} />
           </button>
-          <button
-            className={styles.btn}
-            type="button"
-            onClick={() => signIn("google")}
-          >
-            Login with google
-            <FontAwesomeIcon icon={faGoogle} fontSize={29} color="white" />
-          </button>
         </div>
         <br />
         <p style={{ display: "flex", alignItems: "center" }}>
