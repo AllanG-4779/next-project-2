@@ -42,6 +42,7 @@
   color: white;
   border-radius: 0.1rem;
   letter-spacing: 0.3rem;
+  margin-bottom: 1rem;
 }
 .submit button:hover {
   background-color: #11afaf;
@@ -50,19 +51,20 @@
   display: flex;
   justify-content: space-around;
   background-color: #f3f3f3;
-  padding:.5rem;
+  padding: 0.5rem;
+  margin-top: .5rem;
 }
 .btnicon {
   padding: 0.5rem;
   border-radius: 50%;
   border: none;
-  cursor:pointer;
+  cursor: pointer;
 }
-.btn{
+.btn {
   border: none;
   width: 4rem;
   cursor: pointer;
 }
-.btn:hover{
-  outline:black;
+.btn:hover {
+  outline: black;
 }

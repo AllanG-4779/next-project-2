@@ -40,6 +40,7 @@ function login() {
           <button>Login</button>
         </div>
         <p>Complete action with:</p>
+        <br />
         <hr />
         <div className={styles.social}>
           <button
@@ -57,6 +58,7 @@ function login() {
             <FontAwesomeIcon icon={faFacebook} fontSize={29} color="#4267B2" />
           </button>
         </div>
+        <br />
         <p style={{ display: "flex", alignItems: "center" }}>
           Dont have an account?
           <Link href={"/signup"} passHref>

@@ -1,3 +1,12 @@
+html,
+body {
+  background: #ededf779;
+  width: 100vw;
+  height: 100vh;
+
+
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -5,6 +14,6 @@ a {
 
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }

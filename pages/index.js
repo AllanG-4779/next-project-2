@@ -4,7 +4,9 @@ import { useSession } from "next-auth/react";
 function index() {
   const { data: session, status } = useSession();
   if (status === "authenticated") {
-    return <p className={styles.alertSuccess}>Welcome {session.user.name}</p>;
+    return (
+      <p className={styles.alertSuccess}>Welcome {session.user.name} atural</p>
+    );
   }
   return (
     <div className={styles.alertWarning}>

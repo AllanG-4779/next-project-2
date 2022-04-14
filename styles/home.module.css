@@ -1,7 +1,7 @@
 .alertSuccess {
   background: rgba(121, 216, 121, 0.432);
   padding: 0.5rem;
-  width: 400px;
+  width: 100vw;
   margin: 2rem auto;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +10,7 @@
 .alertWarning {
   background: rgba(241, 7, 7, 0.11);
   padding: 0.5rem;
-  width: 400px;
+  width: 100vw;
   margin: 2rem auto;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
