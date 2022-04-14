@@ -57,8 +57,8 @@ function login() {
             type="button"
             onClick={() => signIn("google")}
           >
-            Login with facebook
-            <FontAwesomeIcon icon={faFacebook} fontSize={29} color="white" />
+            Login with google
+            <FontAwesomeIcon icon={faGoogle} fontSize={29} color="white" />
           </button>
         </div>
         <br />
