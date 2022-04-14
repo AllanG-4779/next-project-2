@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100vw;
 }
 .brand {
   font-size: larger;
@@ -41,11 +42,11 @@
   width: 4rem;
   color: white;
   font-weight: lighter;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   cursor: pointer;
-  border-radius: .2rem;
-  outline:black;
+  border-radius: 0.2rem;
+  outline: black;
 }
-.login:hover{
+.login:hover {
   background-color: #02324daf;
 }
