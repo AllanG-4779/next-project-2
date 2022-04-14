@@ -45,7 +45,7 @@ function login() {
         <div className={styles.social}>
           <button
             type="button"
-            onClick={(e) => signIn(providers.github.id)}
+            onClick={(e) => signIn("github")}
             className={styles.btn}
           >
             {" "}
