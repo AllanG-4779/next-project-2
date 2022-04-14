@@ -55,7 +55,7 @@ function login() {
           <button
             className={styles.btn}
             type="button"
-            onClick={() => signIn("facebook")}
+            onClick={() => signIn("google")}
           >
             Login with facebook
             <FontAwesomeIcon icon={faFacebook} fontSize={29} color="white" />
