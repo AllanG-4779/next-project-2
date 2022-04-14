@@ -48,6 +48,8 @@ function login() {
             onClick={(e) => signIn(providers.github.id)}
             className={styles.btn}
           >
+            {" "}
+            Login with github
             <FontAwesomeIcon icon={faGithub} fontSize={29} />
           </button>
           <button
@@ -55,7 +57,8 @@ function login() {
             type="button"
             onClick={() => signIn("facebook")}
           >
-            <FontAwesomeIcon icon={faFacebook} fontSize={29} color="#4267B2" />
+            Login with facebook
+            <FontAwesomeIcon icon={faFacebook} fontSize={29} color="white" />
           </button>
         </div>
         <br />

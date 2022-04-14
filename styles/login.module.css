@@ -49,10 +49,11 @@
 }
 .social {
   display: flex;
-  justify-content: space-around;
-  background-color: #f3f3f3;
+  flex-direction: column;
+  justify-content: center;
+
   padding: 0.5rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 .btnicon {
   padding: 0.5rem;
@@ -64,6 +65,25 @@
   border: none;
   width: 4rem;
   cursor: pointer;
+  width: 100%;
+  border-radius: 0.4rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  padding: .5rem;
+  text-transform: uppercase;
+}
+.btn:nth-child(1) {
+  background-color: black;
+  
+  
+
+}
+.btn:nth-child(2) {
+  background-color: #4267B2;
+  
 }
 .btn:hover {
   outline: black;
