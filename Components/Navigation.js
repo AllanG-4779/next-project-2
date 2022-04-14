@@ -5,7 +5,7 @@ import styles from "../styles/nav.module.css";
 function Navigation() {
   const { data: session, status } = useSession();
   return (
-    <>
+    
       <nav className={styles.nav}>
         <Link passHref href="/">
           <a className={styles.brand}>Duur Homes</a>
@@ -46,7 +46,7 @@ function Navigation() {
           </ul>
         )}
       </nav>
-    </>
+  
   );
 }
 
