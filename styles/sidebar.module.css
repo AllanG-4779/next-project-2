@@ -1,0 +1,19 @@
+.container {
+  width: 10rem;
+  background-color: rgba(1, 5, 24, 0.89);
+  border-right: 1px solid grey;
+  height: calc(100vh - 4rem);
+  color: white;
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+}
+.container p {
+  height: 5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+.container p:hover {
+  cursor: pointer;
+}
