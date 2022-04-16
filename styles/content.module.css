@@ -2,11 +2,11 @@
   margin: 1rem;
   display: flex;
   gap: 0.8rem;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   overflow-x: hidden;
   height: calc(100vh - 6rem);
   width: calc(100vw - 10rem);
-  z-index: 1;
+
 }
 
 .users {
@@ -15,9 +15,12 @@
   margin-top: 2rem;
   width: 12rem;
   background-color: white;
-  box-shadow: 0 0 2rem #d3d3d3;
+  /* box-shadow: 0 0 .2rem #d3d3d3; */
   padding: 0.8rem;
+  
   border-radius: 0.4rem;
+  margin-bottom: 0;
+
 }
 @keyframes hover {
   from {

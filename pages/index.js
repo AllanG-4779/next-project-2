@@ -4,7 +4,7 @@ import { useSession } from "next-auth/react";
 import Admin from "../Components/Admin/Admin";
 function index() {
   const { data: session, status } = useSession();
-  if (status === "authenticated") {
+  if (status === "unauthenticated") {
     return <Admin />;
   }
   return (
