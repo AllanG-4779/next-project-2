@@ -14,9 +14,17 @@
   height: 3rem;
   margin-bottom: 0.8rem;
   display: flex;
-  
+
   align-items: center;
 }
 .container p span {
   margin-left: 0.4rem;
+}
+@media screen and (max-width: 720px) {
+  .container {
+    width: 3rem;
+  }
+  .container p span {
+    display: none;
+  }
 }
