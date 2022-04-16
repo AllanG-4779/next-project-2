@@ -9,11 +9,14 @@
   flex-direction: column;
 }
 .container p {
-  height: 5rem;
+  padding: 0.5rem;
+  margin-left: 0.2rem;
+  height: 3rem;
+  margin-bottom: 0.8rem;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-evenly;
+  
+  align-items: center;
 }
-.container p:hover {
-  cursor: pointer;
+.container p span {
+  margin-left: 0.4rem;
 }
